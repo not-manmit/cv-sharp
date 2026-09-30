@@ -1,0 +1,72 @@
+# CMake and native build output
+backend/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+backend/build/Makefile
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Native compiler and linker artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.pdb
+*.ilk
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Generated benchmark output
+results/*.csv
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Editors and operating-system metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Coverage, profiling, logs, and temporary files
+coverage/
+.coverage
+*.prof
+*.log
+*.tmp
+*.temp
+*.bak
+
+# User-specific CMake configuration
+CMakeUserPresets.json
